@@ -6,7 +6,6 @@ namespace RandomFilmServer.Api
     using Autofac;
     using Domain.Settings;
     using Extensions;
-    using HostedServices;
     using Installers;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -56,8 +55,6 @@ namespace RandomFilmServer.Api
                     .Configure<S3Settings>(Configuration.GetSection(nameof(S3Settings)))
                     .Configure<RabbitSettings>(Configuration.GetSection(nameof(RabbitSettings)));
 
-            services.AddHostedService<TemplateHostedService>();
-
             services.AddControllers()
                     .AddJsonOptions(options => options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
         }
@@ -72,8 +69,7 @@ namespace RandomFilmServer.Api
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage()
-                   .UseSwagger()
+                app.UseSwagger()
                    .UseSwaggerUI(options =>
                                      {
                                          foreach (var apiVersionDescription in apiVersionDescriptionProvider.ApiVersionDescriptions)
@@ -85,7 +81,7 @@ namespace RandomFilmServer.Api
                                      });
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
