@@ -21,7 +21,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\RandomFilmServer.Api.Shared\RandomFilmServer.Api.Shared.csproj" />
 	  <ProjectReference Include="..\RandomFilmServer.DataAccess\RandomFilmServer.DataAccess.csproj" />
 	  <ProjectReference Include="..\RandomFilmServer.Domain\RandomFilmServer.Domain.csproj" />
 	</ItemGroup>

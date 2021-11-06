@@ -32,8 +32,7 @@ namespace RandomFilmServer.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddJaeger(Configuration)
-                    .AddOpenTracing(builder => builder.ConfigureAspNetCore(options => options.Hosting.IgnorePatterns.Add(context => context.Items.Any())));
+            services.AddOpenTracing(builder => builder.ConfigureAspNetCore(options => options.Hosting.IgnorePatterns.Add(context => context.Items.Any())));
 
             services.Configure<GenericEventOptions>(options => options.IgnoreAll = true);
 

@@ -21,8 +21,4 @@
 		</PackageReference>
 	</ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\RandomFilmServer.Api.Client\RandomFilmServer.Api.Client.csproj" />
-	</ItemGroup>
-
 </Project>

@@ -4,7 +4,6 @@
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Logging;
     using OpenTracing;
-    using Shared.Dtos;
 
     [ApiController]
     [ApiVersion("1.0")]
@@ -23,13 +22,13 @@
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<TemplateDto>> Get(int id)
+        public async Task<ActionResult<Dtos.TemplateDto>> Get(int id)
         {
             _tracer.ActiveSpan.SetTag(nameof(id), id);
 
             _logger.LogInformation("Get some id {Id}", id);
 
-            var result = await Task.FromResult(new TemplateDto {Id = id}).ConfigureAwait(false);
+            var result = await Task.FromResult(new Dtos.TemplateDto {Id = id}).ConfigureAwait(false);
 
             return result;
         }

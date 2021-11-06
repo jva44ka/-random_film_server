@@ -15,10 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomFilmServer.Tests", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomFilmServer.IntegrationTests", "RandomFilmServer.IntegrationTests\RandomFilmServer.IntegrationTests.csproj", "{296D0D84-BE69-4D20-BC41-A335BFF66487}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomFilmServer.Api.Client", "RandomFilmServer.Api.Client\RandomFilmServer.Api.Client.csproj", "{F32A199D-F7D5-4272-ADA3-442C8BF4D931}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomFilmServer.Api.Shared", "RandomFilmServer.Api.Shared\RandomFilmServer.Api.Shared.csproj", "{E371AF12-135F-403E-B684-55113269D67E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,14 +45,6 @@ Global
 		{296D0D84-BE69-4D20-BC41-A335BFF66487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{296D0D84-BE69-4D20-BC41-A335BFF66487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{296D0D84-BE69-4D20-BC41-A335BFF66487}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F32A199D-F7D5-4272-ADA3-442C8BF4D931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F32A199D-F7D5-4272-ADA3-442C8BF4D931}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F32A199D-F7D5-4272-ADA3-442C8BF4D931}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F32A199D-F7D5-4272-ADA3-442C8BF4D931}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E371AF12-135F-403E-B684-55113269D67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E371AF12-135F-403E-B684-55113269D67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E371AF12-135F-403E-B684-55113269D67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E371AF12-135F-403E-B684-55113269D67E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
