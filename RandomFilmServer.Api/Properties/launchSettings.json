@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Byndyusoft.ServiceTemplate.Api": {
+    "RandomFilmServer.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
@@ -24,6 +24,12 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
     }
   }
 }
