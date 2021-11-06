@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Client.Utils
+﻿namespace RandomFilmServer.Api.Client.Utils
 {
     using System.Collections.Generic;
     using System.ComponentModel;

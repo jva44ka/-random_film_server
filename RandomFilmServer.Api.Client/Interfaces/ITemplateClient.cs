@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Client.Interfaces
+﻿namespace RandomFilmServer.Api.Client.Interfaces
 {
     using System.Threading.Tasks;
     using Shared.Dtos;

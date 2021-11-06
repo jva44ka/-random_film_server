@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.Services.Interfaces
+﻿namespace RandomFilmServer.Domain.Services.Interfaces
 {
     using System.Threading;
     using System.Threading.Tasks;

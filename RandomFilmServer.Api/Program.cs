@@ -1,4 +1,4 @@
-namespace Byndyusoft.ServiceTemplate.Api
+namespace RandomFilmServer.Api
 {
     using Autofac.Extensions.DependencyInjection;
     using Microsoft.AspNetCore.Hosting;

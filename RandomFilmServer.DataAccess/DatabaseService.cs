@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.DataAccess
+﻿namespace RandomFilmServer.DataAccess
 {
     using System.Linq;
     using System.Threading.Tasks;

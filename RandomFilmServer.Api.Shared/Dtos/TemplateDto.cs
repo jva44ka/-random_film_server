@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Shared.Dtos
+﻿namespace RandomFilmServer.Api.Shared.Dtos
 {
     public class TemplateDto
     {

@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.DataAccess.ConnectionFactories
+﻿namespace RandomFilmServer.DataAccess.ConnectionFactories
 {
     using System.Data;
     using System.Threading.Tasks;

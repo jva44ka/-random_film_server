@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.Dtos
+﻿namespace RandomFilmServer.Domain.Dtos
 {
     public class TemplateDto
     {

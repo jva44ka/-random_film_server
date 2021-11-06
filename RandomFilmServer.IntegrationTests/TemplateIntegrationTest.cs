@@ -1,4 +1,4 @@
-namespace Byndyusoft.ServiceTemplate.IntegrationTests
+namespace RandomFilmServer.IntegrationTests
 {
     using System.Net.Http;
     using System.Threading.Tasks;

@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Swagger
+﻿namespace RandomFilmServer.Api.Swagger
 {
     using System;
     using System.IO;

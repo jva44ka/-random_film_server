@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Controllers
+﻿namespace RandomFilmServer.Api.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
 

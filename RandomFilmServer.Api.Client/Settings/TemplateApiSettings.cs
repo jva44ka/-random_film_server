@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Client.Settings
+﻿namespace RandomFilmServer.Api.Client.Settings
 {
     public class TemplateApiSettings
     {

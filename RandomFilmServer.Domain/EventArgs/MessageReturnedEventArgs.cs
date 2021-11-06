@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.EventArgs
+﻿namespace RandomFilmServer.Domain.EventArgs
 {
     /// <summary>
     ///     Аргументы события возврата сообщения

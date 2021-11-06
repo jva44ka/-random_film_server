@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Migrator.Migrations
+﻿namespace RandomFilmServer.Migrator.Migrations
 {
     using FluentMigrator;
 

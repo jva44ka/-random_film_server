@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.Entities
+﻿namespace RandomFilmServer.Domain.Entities
 {
     public class Template
     {

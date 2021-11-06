@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.Services
+﻿namespace RandomFilmServer.Domain.Services
 {
     using System;
     using System.Collections;

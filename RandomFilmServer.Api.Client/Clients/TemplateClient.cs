@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Client.Clients
+﻿namespace RandomFilmServer.Api.Client.Clients
 {
     using System;
     using System.Net.Http;

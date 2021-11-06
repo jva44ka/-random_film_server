@@ -1,4 +1,4 @@
-namespace Byndyusoft.ServiceTemplate.Api
+namespace RandomFilmServer.Api
 {
     using System.Linq;
     using System.Reflection;

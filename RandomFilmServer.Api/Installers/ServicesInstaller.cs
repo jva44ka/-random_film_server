@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Installers
+﻿namespace RandomFilmServer.Api.Installers
 {
     using Autofac;
     using DataAccess;

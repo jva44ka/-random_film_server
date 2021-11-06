@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Extensions
+﻿namespace RandomFilmServer.Api.Extensions
 {
     using Microsoft.AspNetCore.Builder;
     using Middlewares;

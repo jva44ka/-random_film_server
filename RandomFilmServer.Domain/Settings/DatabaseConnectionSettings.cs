@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.Settings
+﻿namespace RandomFilmServer.Domain.Settings
 {
     public class DatabaseConnectionSettings
     {

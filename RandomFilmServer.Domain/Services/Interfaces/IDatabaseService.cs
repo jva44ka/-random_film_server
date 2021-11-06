@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Domain.Services.Interfaces
+﻿namespace RandomFilmServer.Domain.Services.Interfaces
 {
     /// <summary>
     ///     Сервис работы с базой данных

@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.Middlewares
+﻿namespace RandomFilmServer.Api.Middlewares
 {
     using System;
     using System.Net;

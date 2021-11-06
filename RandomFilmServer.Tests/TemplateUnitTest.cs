@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Tests
+﻿namespace RandomFilmServer.Tests
 {
     using FluentAssertions;
     using Xunit;

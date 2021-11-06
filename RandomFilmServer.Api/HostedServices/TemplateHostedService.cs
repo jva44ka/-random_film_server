@@ -1,4 +1,4 @@
-﻿namespace Byndyusoft.ServiceTemplate.Api.HostedServices
+﻿namespace RandomFilmServer.Api.HostedServices
 {
     using System.Threading;
     using System.Threading.Tasks;
