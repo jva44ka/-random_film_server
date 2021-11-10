@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace randomfilmserver.Controllers
+namespace RandomFilmServer.Controllers
 {
     [ApiController]
     [Route("[controller]")]

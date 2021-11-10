@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "randomfilmserver": {
+    "RandomFilmServer": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

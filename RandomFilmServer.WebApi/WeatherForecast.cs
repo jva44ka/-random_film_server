@@ -1,6 +1,6 @@
 using System;
 
-namespace randomfilmserver
+namespace RandomFilmServer
 {
     public class WeatherForecast
     {
