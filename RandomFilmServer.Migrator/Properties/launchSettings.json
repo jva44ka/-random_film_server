@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RandomFilmServer.Migrator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
